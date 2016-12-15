@@ -1,0 +1,9 @@
+version: 1.0.{build}
+configuration:
+- Debug
+- Release
+- Mono
+before_build:
+- cmd: dotnet restore
+build:
+  verbosity: minimal
