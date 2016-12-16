@@ -6,6 +6,6 @@ configuration:
 before_build:
 - cmd: dotnet restore
 after_build:
-- ps: if($env:configuration == "Release") {dotnet pack ConsoleAppCore4}
+- ps: if($env:configuration -eq "Release") {dotnet pack ConsoleAppCore4}
 build:
   verbosity: minimal
