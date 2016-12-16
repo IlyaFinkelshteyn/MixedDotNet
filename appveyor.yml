@@ -5,5 +5,7 @@ configuration:
 - Mono
 before_build:
 - cmd: dotnet restore
+after_build:
+- ps: if($env:configuration == "Release") {dotnet pack ConsoleAppCore4}
 build:
   verbosity: minimal
