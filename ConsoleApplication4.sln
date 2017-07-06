@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibraryNetCore", "Clas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibraryNetStandard", "ClassLibraryNetStandard\ClassLibraryNetStandard.csproj", "{00AC6D47-6E01-42BC-9E4C-808521F00B2D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationNetCore", "WebApplicationNetCore\WebApplicationNetCore.csproj", "{FAB96629-47DE-4974-91C4-625ABC8F23E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,12 @@ Global
 		{00AC6D47-6E01-42BC-9E4C-808521F00B2D}.Mono|Any CPU.Build.0 = Debug|Any CPU
 		{00AC6D47-6E01-42BC-9E4C-808521F00B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00AC6D47-6E01-42BC-9E4C-808521F00B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAB96629-47DE-4974-91C4-625ABC8F23E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB96629-47DE-4974-91C4-625ABC8F23E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB96629-47DE-4974-91C4-625ABC8F23E6}.Mono|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB96629-47DE-4974-91C4-625ABC8F23E6}.Mono|Any CPU.Build.0 = Debug|Any CPU
+		{FAB96629-47DE-4974-91C4-625ABC8F23E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB96629-47DE-4974-91C4-625ABC8F23E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
