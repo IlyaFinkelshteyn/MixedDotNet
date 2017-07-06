@@ -1,0 +1,14 @@
+version: 1.0.{build}
+dotnet_csproj:
+  patch: true
+  file: '**\*.csproj'
+  version: '{version}'
+  package_version: 88.99.22
+before_build:
+- set path=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin;%path%
+- msbuild /t:restore
+build:
+  verbosity: minimal
+after_build:
+- msbuild %appveyor_build_folder%\ClassLibraryNetCore\ClassLibraryNetCore.csproj /t:pack
+- msbuild %appveyor_build_folder%\ClassLibraryNetStandard\ClassLibraryNetStandard.csproj /t:pack
