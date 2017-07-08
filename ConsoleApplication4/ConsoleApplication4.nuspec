@@ -6,12 +6,12 @@
     <title>Iluxa</title>
     <authors>Iluxa</authors>
     <owners>Iluxa</owners>
-    <licenseUrl>http://iluxa,xa</licenseUrl>
-    <projectUrl>http://iluxa,xa</projectUrl>
-    <iconUrl>http://iluxa,xa</iconUrl>
+    <licenseUrl>http://iluxa.xa</licenseUrl>
+    <projectUrl>http://iluxa.xa</projectUrl>
+    <iconUrl>http://iluxa.xa</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Iluxa</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <releaseNotes>Iluxa.</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>iluxa</tags>
   </metadata>
